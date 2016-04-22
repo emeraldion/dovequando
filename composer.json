@@ -1,0 +1,29 @@
+{
+    "name": "emeraldion/dovequando",
+    "repositories": [
+        {
+           "type": "vcs",
+           "url": "https://github.com/emeraldion/emerails"
+        }
+    ],
+    "require": {
+        "emeraldion/emerails": "dev-master"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "4.8.*"
+    },
+    "scripts": {
+      "post-package-install": [
+        "cp -a vendor/emeraldion/emerails/controllers/base_controller.php controllers",
+        "cp -a vendor/emeraldion/emerails/models/* models",
+        "cp -a vendor/emeraldion/emerails/helpers/* helpers",
+        "cp -a vendor/emeraldion/emerails/include/* include"
+      ],
+      "post-package-update": [
+        "cp -a vendor/emeraldion/emerails/controllers/base_controller.php controllers",
+        "cp -a vendor/emeraldion/emerails/models/* models",
+        "cp -a vendor/emeraldion/emerails/helpers/* helpers",
+        "cp -a vendor/emeraldion/emerails/include/* include"
+      ]
+    }
+}
