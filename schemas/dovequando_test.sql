@@ -13,6 +13,9 @@ SET time_zone = "+00:00";
 --
 -- Database: `dovequando_test`
 --
+CREATE DATABASE IF NOT EXISTS `dovequando_test` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `dovequando_test`;
+
 
 -- --------------------------------------------------------
 
