@@ -5,7 +5,7 @@
 		<link type="text/css" href="/css/tiger.css" rel="stylesheet" title="Sleek theme" media="screen" />
 		<link type="text/css" href="/css/common.css" rel="alternate stylesheet" title="Hairpin theme" media="screen" />
 		<link type="text/css" href="/css/tiger-print.css" rel="stylesheet" media="print" />
-		<link type="text/png" href="/img/money.png" rel="icon" />
+		<link type="text/png" href="/img/dovequando.png" rel="icon" />
 		<title><?php print $this->title; ?></title>
 		<script src="/js/common.js" type="text/javascript" language="javascript"></script>
 		<script src="/js/jquery-1.2.3.min.js" type="text/javascript" language="javascript"></script>
